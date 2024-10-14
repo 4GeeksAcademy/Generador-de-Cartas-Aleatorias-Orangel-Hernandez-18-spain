@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  font-size: 6rem;
+  background-color: green;
+}
+.container {
+  width: 18rem;
+  padding-top: 7rem;
+}
+.iconUp {
+  padding-left: 1rem;
+}
+.cardValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconDown {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-left: 1rem;
+  rotate: 180deg;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
